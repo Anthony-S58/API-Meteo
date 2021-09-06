@@ -3,6 +3,13 @@
     left: 0px;
     box-sizing: border-box;
 }
+body{
+    background-image: url('../IMG/weather.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
 
 header{
     display: flex;
@@ -36,26 +43,35 @@ button{
     width: 160px;
     height: 160px;
     border: 1px solid red;
+    border-radius: 10px;
     display: flex;
+    background-color: rgba(0, 255, 255, 0.5);
     
 }
 .temperature{
     width: 160px;
     height: 160px;
+    border-radius: 10px;
     border: 1px solid red;
     display: flex;
+    background-color: rgba(0, 255, 255, 0.5);
+
     
 }
 .humidity{
     width: 160px;
     height: 160px;
+    border-radius: 10px;
     border: 1px solid red;
+    background-color: rgba(0, 255, 255, 0.5);
     display: flex;
     
 }
 .wind{
     width: 160px;
     height: 160px;
+    background-color: rgba(0, 255, 255, 0.5);
+    border-radius: 10px;
     border: 1px solid red;
     display: flex;
     
